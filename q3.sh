@@ -1,6 +1,6 @@
 #! /usr/bin/bash
-read para
-grep -wo "s[^a]\w*" $para
-grep -wo "wh\w*" $para
-grep -wo "th\w*" $para
-grep -wo "a[^n]\w*" $para
+$1
+grep -wo "s[^a]\w*" $1
+grep -wo "wh\w*" $1
+grep -wo "th\w*" $1
+grep -wo "a[^n]\w*" $1
